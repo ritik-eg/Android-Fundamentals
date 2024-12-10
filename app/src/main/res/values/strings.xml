@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TaskLaunchpad</string>
+    <string name="next_activity_page">Next Activity/Page</string>
+    <string name="second_activity">Second Activity</string>
+    <string name="_3rd_acticity">3rd Acticity</string>
+    <string name="launch_four">Launch four</string>
+    <string name="fragmented_activity_concepts">Fragmented Activity Concepts</string>
+</resources>

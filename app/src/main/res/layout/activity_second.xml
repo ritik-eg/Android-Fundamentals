@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/gradient_drawable">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="4dp"
+        android:layout_marginBottom="12dp">
+
+        <TextView
+            android:id="@+id/Output"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:gravity="center"
+            android:text="@string/second_activity"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="4dp">
+
+        <TextView
+            android:id="@+id/Output2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:gravity="center"
+            android:fontFamily="serif"
+            android:textSize="20sp"
+            android:textColor="@color/purple_700"
+            android:backgroundTint="#EEE9B9"
+            android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
+
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="160dp"
+        android:fontFamily="serif"
+        android:text="@string/_3rd_acticity"
+        android:textColor="@color/white"
+        android:background="@drawable/circular_button"
+        android:layout_gravity="center"/>
+
+
+</LinearLayout>
