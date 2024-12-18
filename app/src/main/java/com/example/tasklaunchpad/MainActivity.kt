@@ -34,27 +34,16 @@ class MainActivity : ComponentActivity() {
             intent.putExtra("m1", message)
             startActivity(intent)
 
-//            // Set activity name and launch mode
-//            findViewById<Button>(R.id.textActivity).text = "Activity: MainActivity\nLaunchMode: standard"
-//
-//            findViewById<Button>(R.id.btnStandard).setOnClickListener {
-//                startActivity(Intent(this, MainActivity::class.java))
-//            }
-//
-//            findViewById<Button>(R.id.btnSingleTop).setOnClickListener {
-//                startActivity(Intent(this, SingleTopActivity::class.java))
-//            }
-//
-//            findViewById<Button>(R.id.btnSingleTask).setOnClickListener {
-//                startActivity(Intent(this, SingleTaskActivity::class.java))
-//            }
-//
-//            findViewById<Button>(R.id.btnSingleInstance).setOnClickListener {
-//                startActivity(Intent(this, SingleInstanceActivity::class.java))
-//            }
 
 
 
+
+        }
+
+        val btnToActivity5 = findViewById<Button>(R.id.btnToActivity5)
+        btnToActivity5.setOnClickListener {
+            val intent = Intent(this, FifthActivity::class.java)
+            startActivity(intent)
         }
     }
 }
