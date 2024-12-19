@@ -45,6 +45,12 @@ class MainActivity : ComponentActivity() {
             val intent = Intent(this, FifthActivity::class.java)
             startActivity(intent)
         }
+        val btnToActivity6 = findViewById<Button>(R.id.apiButton)
+        btnToActivity6.setOnClickListener {
+            val intent = Intent(this, ApiActivity::class.java)
+            startActivity(intent)
+        }
+
     }
 }
 

@@ -31,28 +31,42 @@
         android:layout_height="60dp"
         android:background="@drawable/rounded_edittext"
         android:hint="Enter Text"
-        android:fontFamily="cursive"
+        android:fontFamily="monospace"
         android:padding="12dp"
         android:textColor="#DF1818"
         android:textSize="20sp"
         android:inputType="text"
         android:textColorHint="@color/black"/>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
     <Button
         android:id="@+id/btnToActivity5"
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:layout_marginTop="25dp"
-        android:layout_marginBottom="24dp"
+        android:layout_width="120dp"
+        android:layout_height="120dp" 
         android:backgroundTint="#215ADE"
-        android:elevation="20dp"
-        android:fontFamily="serif"
-        android:padding="12dp"
+        android:layout_weight="1"
+        android:layout_marginEnd="10dp"
         android:text="@string/button_to_activity_5"
         android:textColor="@android:color/white"
         android:textStyle="normal" />
 
     <!-- ProgressBar with center alignment and modern shadow -->
+    <Button
+        android:id="@+id/apiButton"
+        android:layout_marginStart="10dp"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_weight="1"
+        android:backgroundTint="#E53935"
+        android:text="Retrofit Demo"
+        android:textColor="@color/black" />
+</LinearLayout>
+
     <ProgressBar
         android:id="@+id/progressBar"
         style="?android:attr/progressBarStyleHorizontal"
